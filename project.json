@@ -1,0 +1,80 @@
+{
+	"description" : "Super Mario Bros. theme:\n- clickable environment,\n- you can collect coins and points,\n- shows actual date and time,\n- mario theme can be played,\n- if music is enabled, one minute before midnight faster song will start playing like in game.\n\nUpdate 1:\n- scrollable environment,\n- lot's of optimization,\n- volume control,\n- castle.\n\nTo add in future:\n- goombas,\n- customizable name.",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"player_name" : 
+			{
+				"options" : 
+				[
+					{
+						"label" : "MARIO",
+						"value" : 1
+					},
+					{
+						"label" : "LUIGI",
+						"value" : 2
+					}
+				],
+				"text" : "Player",
+				"type" : "combo",
+				"value" : 1
+			},
+			"scale" : 
+			{
+				"max" : 4,
+				"min" : 1,
+				"text" : "Scale",
+				"type" : "slider",
+				"value" : 3
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.4588235294117647 0.6627450980392157 0.9333333333333333"
+			},
+			"scroll_type" : 
+			{
+				"options" : 
+				[
+					{
+						"label" : "Hover",
+						"value" : "hover"
+					},
+					{
+						"label" : "Click",
+						"value" : "click"
+					}
+				],
+				"text" : "Scrolling method",
+				"type" : "combo",
+				"value" : "hover"
+			},
+			"theme_song" : 
+			{
+				"text" : "Play theme song",
+				"type" : "bool",
+				"value" : false
+			},
+			"volume" : 
+			{
+				"max" : 10,
+				"min" : 1,
+				"text" : "Volume",
+				"type" : "slider",
+				"value" : 10
+			}
+		}
+	},
+	"monetization" : false,
+	"preview" : "preview.jpg",
+	"tags" : [ "Retro" ],
+	"title" : "Super Mario Bros.",
+	"type" : "web",
+	"visibility" : "public",
+	"workshopid" : 864616268
+}
